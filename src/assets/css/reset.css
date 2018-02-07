@@ -1,0 +1,106 @@
+body, div, span, header, footer, nav, section, aside, article, ul, dl, dt, dd, li, a, p, h1, h2, h3, h4, h5, h6, i, b, textarea, button, input, select, figure, figcaption {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  border: none;
+  font-weight: normal;
+  font-size: .16rem;
+  font-family: "Microsoft Yahei";
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased
+}
+:hover {
+    outline: none;
+}
+
+a {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-user-select: none;
+  -moz-user-focus: none;
+  -moz-user-select: none;
+}
+
+.clr, .clear {
+  display: block;
+  overflow: hidden;
+  clear: both;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+}
+
+.fl {
+  float: left
+}
+
+.fr {
+  float: right
+}
+
+.clfx:after, .clearfix:after {
+  content: "";
+  display: block;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  clear: both;
+  visibility: hidden;
+}
+
+.lr1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -ms-text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lr2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.lr3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+input[disabled] {
+  background: #fcfcfc
+}
+
+/**
+详情页内容详情样式无法添加，只能在此添加
+ */
+.intro > p {
+  width: 100%;
+  font-size: .15rem;
+  text-align: left;
+  padding-left: .03rem;
+}
+
+.intro > span {
+  font-size: .18rem;
+  color: #f01e1f;
+}
+
+.intro img {
+  width: 100%;
+}
+
+.intro table {
+  /*box-sizing: content-box;*/
+  width: 100% !important;
+}
+
+.intro tbody {
+  width: 100%;
+}

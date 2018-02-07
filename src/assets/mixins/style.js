@@ -1,0 +1,1 @@
+const style= {    methods: {    },    mounted(){        document.getElementById("act").style.color='#EF5762'    }}export default style
